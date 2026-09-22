@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Diri</title>
+    <link rel="stylesheet" href="tugas2.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Form Data Mahasiswa</h1>
+        <p class="subtitle">Silakan isi data diri dibawah ini.</p>
+
+        <form>
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="isi nama lengkap ">
+            </div><br>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="masukkan password">
+            </div><br>
+
+            <div class="form-group">
+                <label for="jurusan">Jurusan</label>
+                <select id="jurusan" name="jurusan">
+                    <option value="">-- Pilih Jurusan --</option>
+                    <option value="teknologi informasi">S1 Teknologi Informasi</option>
+                    <option value="ilmu komputer">S1 Ilmu Komputer</option>
+                    <option value="teknik informatika">S2 Teknik Informatika</option>
+                    <option value="ilmu komputer">S2 Ilmu Komputerr</option>
+                    <option value="ilmu komputer">S3 Ilmu Komputer</option>
+                </select>
+            </div><br>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat</label>
+                    <textarea id="alamat" name="alamat" rows="4"
+                    placeholder="isi alamat lengkap"></textarea>
+                 </div><br>
+
+            <div class="form-group">
+                    <label>Jenis Kelamin</label>
+
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="jenis_kelamin" value="laki-laki">
+                        Laki-laki
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="jenis_kelamin" value="perempuan">
+                        Perempuan
+                    </label>
+                </div>
+            </div><br>
+
+             <div class="form-group">
+                    <label>Hobi</label>
+
+                <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="hobi" value="olahraga">olahraga</label><br>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="musik">mendengar musik</label><br>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="masak">memasak</label><br>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="gaming">bermain game</label><br>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="baca">membaca</label><br>
+             
+                <label>
+                    <input type="checkbox"name="hobi" value="ngoding">ngoding</label>
+                </div>
+            </div><br><br>
+
+    <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+</body>
+</html>
